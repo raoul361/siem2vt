@@ -16,9 +16,9 @@ Check hashes (md5, sha) against VirusTotal for matches. If there is a match, ret
 
 ## Arguments
 
-**hash** - the md5/sha hash to check
-**engine** - the AV engine to use (e.g. McAfee, Kaspersky)
-**message** - the prefix for the syslog message; this makes later parsing easier (e.g. regex based on this text within your automation tool)
++ **hash** - the md5/sha hash to check
++ **engine** - the AV engine to use (e.g. McAfee, Kaspersky)
++ **message** - the prefix for the syslog message; this makes later parsing easier (e.g. regex based on this text within your automation tool)
 
 ## Dependencies
 
